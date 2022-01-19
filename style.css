@@ -1,0 +1,20 @@
+table{border: 2px solid gold;width: 750px;}
+.entete{width: 200px;height: 20px;border: 3px solid khaki;background-color: yellowgreen;border-top-left-radius: 60px ;
+border-bottom-right-radius: 60px;box-shadow: 6px 6px 6px brown;text-align: center;margin: bottom 5px;}
+.entete:hover{border: 4px solid;border-color: yellowgreen;background-color: khaki;border-top-left-radius: 60px;
+border-bottom-right-radius: 60px;}
+.menu{width: 200px;border: 1px solid;text-align: center;margin: 5px;
+background-image: radial-gradient(circle , white , yellowgreen , khaki );}
+.menu:hover{background-image: radial-gradient(circle , green, red , khaki );}
+h2{text-align: center;text-shadow: 5px 5px 5px gray;}
+#contenu{column-count: 2;column-gap: 20px;text-align: justify;}
+#piedp{width: 100px;background-color: khaki;text-align: center;}
+#piedp:hover{background-color: yellowgreen;}
+
+@keyframes fadeout {
+    from { opacity: 1; }
+    to { opacity: 0;transform: translate(100px) rotate(360deg); } }
+img { animation-duration: 3s; animation-delay: 0s; animation-timing-function: ease;
+    animation-iteration-count: infinite; }
+img{animation-name: fadeout;}
+
