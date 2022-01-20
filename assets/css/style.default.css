@@ -1,12 +1,13 @@
 .main {
     background-position: center center;
     background-size: cover;
-    height: 700px;
+    height: auto;
     left: 0;
-
+    min-height: 100%;
+    min-width: 100%;
     position: absolute;
     top: 0;
-    width: 100%
+    width: auto
 }
 @media (max-width: 991px) {
     .main {
