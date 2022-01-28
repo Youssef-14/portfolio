@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - SUDOKU</title>
+  <link rel="stylesheet" href="./style.css">
+<div id="player">
+    <audio autoplay hidden>
+    <source src="son.mp3" type="audio/mpeg">
+        If you're reading this then your browser is outdated.
+    </audio>
+</div>
+<script>
+function myFunction() {
+  var x = document.getElementById("myAudio").autoplay;
+  document.getElementById("demo").innerHTML = x;
+}
+</script>
+</head>
+<body>
+
+<!-- partial:index.partial.html -->
+<a href="#" id="sidebar-toggle">
+   <span class="bar"></span>
+   <span class="bar"></span>
+   <span class="bar"></span>
+</a>
+<div id="player">
+<h1 id="sudoku_title">SUDOKU</h1>
+
+<div id="sudoku_menu">
+  <ul>
+    <li><a class="restart" href="#">New Game</a></li>
+    <li></li>
+  </ul>
+</div>
+
+<div id="sudoku_container"></div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
