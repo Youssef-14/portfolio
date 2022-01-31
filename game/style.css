@@ -11,14 +11,14 @@ body {
     font-family:verdana,helvetica,arial,sans-serif;
     border:0px; margin:0px; padding:0px;
         
-    background:url(
-        data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAIUlEQVQYV2N89urtfwYiACNIoZSYMCMhtaMK8YYQ0cEDAG5yJ8eLRhTfAAAAAElFTkSuQmCC
-    ) repeat;
+    background-image:url("image.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 
 /* board */
 .sudoku_board {
-    margin:6px auto;
+    margin:15px auto;
   
     overflow: hidden;
     
@@ -328,3 +328,6 @@ body {
 @media all and (orientation:portrait) and  (max-width: 240px){
 	.sudoku_board .cell span { font-size:10px; }   
 }
+b{color:white;}
+.time{ color:white;}
+.cells_complete{ color:white;}
