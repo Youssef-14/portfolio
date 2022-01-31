@@ -328,6 +328,6 @@ body {
 @media all and (orientation:portrait) and  (max-width: 240px){
 	.sudoku_board .cell span { font-size:10px; }   
 }
-b{color:white;}
-.time{ color:white;}
-.cells_complete{ color:white;}
+b{color:#FFFFFF;}
+.time{ color:#FFFFFF;}
+.cells_complete{ color:#FFFFFF;}
