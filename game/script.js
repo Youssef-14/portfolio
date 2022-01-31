@@ -572,14 +572,12 @@ $(function() {
      //restart game
     $('#'+ game.id +' .restart').on('click', function(){
         game.init().run();
-        var audio = new Audio('son.mp3');
         audio.play();
     });
   
     $('#sudoku_menu .restart').on('click', function(){
         game.init().run();
         $('#sudoku_menu').removeClass('open-sidebar');
-                var audio = new Audio('son.mp3');
         audio.play();
     });
     
